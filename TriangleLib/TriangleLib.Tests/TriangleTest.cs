@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
+using TriangleLib;
 
 namespace TriangleLib.Tests
 {
@@ -15,6 +16,10 @@ namespace TriangleLib.Tests
             double side2 = 4;
 
             // act
+            double result = TriangleLib.Triangle.RightTrianglePerimeter(side1, side2);
+
+            //assert
+            
 
         }
     }
