@@ -9,6 +9,10 @@ namespace TriangleLib
         public double B { get; set; }
         public double C { get; set; }
 
+        public double angleAB { get; set; }
+        public double angleBC { get; set; }
+        public double angleAC { get; set; }
+
         public double TriangleArea(double TriBase, double height)
         {
             return (TriBase * height) / 2;
