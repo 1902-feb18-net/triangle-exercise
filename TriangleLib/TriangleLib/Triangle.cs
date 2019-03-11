@@ -127,4 +127,27 @@ namespace TriangleLib
 
 
 	}
+        //decimal Base { get; set; }
+        decimal Altitude { get; set; }
+        decimal[] Sides { get; set; }
+
+        public Triangle(decimal[] sides)
+        {
+            sides = Sides;
+        }
+
+
+        decimal getPerimeter(Triangle triangle)
+        {
+            decimal perimeter = 0;
+
+            for (int i = 0; i < triangle.Sides.Length; i++)
+            {
+                perimeter += triangle.Sides[i];
+            }
+            return perimeter;
+        }
+
+
+    }
 }
