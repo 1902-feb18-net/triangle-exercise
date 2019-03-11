@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
@@ -9,7 +9,7 @@ namespace TriangleLib.Tests
     public class TriangleTest
     {
         [Fact]
-        public void FindRightTrianglePerimeter ()
+        public void FindRightTrianglePerimeter()
         {
             // arrange
             double side1 = 3;
@@ -19,7 +19,7 @@ namespace TriangleLib.Tests
             double result = TriangleLib.Triangle.RightTrianglePerimeter(side1, side2);
 
             //assert
-            
+
 
         }
     }
