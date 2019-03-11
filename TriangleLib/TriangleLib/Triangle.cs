@@ -4,6 +4,13 @@ namespace TriangleLib
 {
     public class Triangle
     {
+        public double ang1 { get; set; }
+        public double ang2 { get; set; }
+        public double ang3 { get; set; }
+        public double side { get; set; }
+        public double hyp { get; set; }
+
+
         public bool IsTriangle(double ang1, double ang2, double ang3)
         {
             if ((ang1 + ang2 + ang3) == 180 && (ang1 != 0) || (ang2 != 0) || (ang3 != 0))
