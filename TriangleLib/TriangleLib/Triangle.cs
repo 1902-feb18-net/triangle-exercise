@@ -126,7 +126,7 @@ namespace TriangleLib
 
 
 
-	}
+	
         //decimal Base { get; set; }
         decimal Altitude { get; set; }
         decimal[] Sides { get; set; }
