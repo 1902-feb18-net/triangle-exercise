@@ -38,10 +38,10 @@ namespace TriangleLib
             return (a != b) && (b != c) && (a != c);
         }
 
-        public double FindThirdSide(double a, double b, double angleAB)
+        public double FindThirdSide(double a, double b, double _angleAB)
         {
             double c = 0;
-            c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2) + 2 * a * b * Math.Cos(angleAB));
+            c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2) + 2 * a * b * Math.Cos(_angleAB));
             return c;
         }
     }
